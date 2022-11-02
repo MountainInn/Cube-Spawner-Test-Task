@@ -7,7 +7,7 @@ using UniRx;
 public class InputPanel : MonoBehaviour
 {
     [SerializeField]
-    private InputField
+    private CustomInputField
         spawnTimeField,
         speedField,
         distanceField;
