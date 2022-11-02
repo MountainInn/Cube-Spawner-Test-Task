@@ -710,7 +710,6 @@ GameObject:
   - component: {fileID: 630982885}
   - component: {fileID: 630982888}
   - component: {fileID: 630982887}
-  - component: {fileID: 630982886}
   m_Layer: 0
   m_Name: Hatch Right
   m_TagString: Untagged
@@ -732,19 +731,6 @@ Transform:
   m_Father: {fileID: 2047344159}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &630982886
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 630982884}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &630982887
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1248,7 +1234,6 @@ GameObject:
   - component: {fileID: 1058186608}
   - component: {fileID: 1058186607}
   - component: {fileID: 1058186606}
-  - component: {fileID: 1058186605}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -1256,20 +1241,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1058186605
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1058186604}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1058186606
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1423,7 +1394,6 @@ GameObject:
   - component: {fileID: 1439033337}
   - component: {fileID: 1439033340}
   - component: {fileID: 1439033339}
-  - component: {fileID: 1439033338}
   m_Layer: 0
   m_Name: Hatch Left
   m_TagString: Untagged
@@ -1445,19 +1415,6 @@ Transform:
   m_Father: {fileID: 2047344159}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1439033338
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1439033336}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1439033339
 MeshRenderer:
   m_ObjectHideFlags: 0
